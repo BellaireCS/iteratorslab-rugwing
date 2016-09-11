@@ -12,6 +12,10 @@ public class IteratorRemoverRunner
 {
 	public static void main ( String[] args )
 	{
+        IteratorRemover test = new IteratorRemover("a b c a b c a", "a");
+        System.out.println(test);
+       test.remove();
+       System.out.println(test);
 		//add test cases	
 	}
 }
